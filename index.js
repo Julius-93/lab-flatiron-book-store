@@ -68,10 +68,10 @@ bookStore.books.forEach((book) => {
     bookImage.alt = book.title;
 
     // Add elements to the book container
-    bookContainer.appendChild(bookTitle);
-    bookContainer.appendChild(bookAuthor);
-    bookContainer.appendChild(bookImage);
+    bookContainer.addChild(bookTitle);
+    bookContainer.addChild(bookAuthor);
+    bookContainer.addChild(bookImage);
 
     // Add the book container to the book list
-    bookList.appendChild(bookContainer);
+    bookList.addChild(bookContainer);
 });
